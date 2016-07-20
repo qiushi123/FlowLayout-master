@@ -14,20 +14,20 @@
 
 #效果图
 
-使用步骤
-1，将项目里的类复制到你的项目中（这是源码奥，可以自己根据需求自己改，比导入类库灵活）
+#使用步骤
+##1，将项目里的类复制到你的项目中（这是源码奥，可以自己根据需求自己改，比导入类库灵活）
 
-2，布局文件中声明：
+##2，布局文件中声明：
 	
 
-3，常用设置（单选，多选，仅仅点击，默认选中项等）
+##3，常用设置（单选，多选，仅仅点击，默认选中项等）
 	//这里FLOW_TAG_CHECKED_SINGLE是单选，FLOW_TAG_CHECKED_MULTI多选，默认是仅仅点击
 	mSizeFlowTagLayout.setTagCheckedMode(FlowTagLayout.FLOW_TAG_CHECKED_SINGLE);
 
 	mSizeTagAdapter.setSelected(4);//默认选择第四个
 
 
-4，事件
+##4，事件
 	4-1选中事件
 	 mSizeFlowTagLayout.setOnTagSelectListener(new OnTagSelectListener() {
             @Override
@@ -57,7 +57,7 @@
             }
         });
 
-5，可以自定义标签大小距离等属性	
+##5，可以自定义标签大小距离等属性	
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 		//这里大家熟悉吧，就是使用listview的adapter，这里的布局就是标签的布局，可以自己定义
@@ -89,7 +89,7 @@
 				/>
 		</LinearLayout>
 
-6,自定义标签选中颜色，
+##6,自定义标签选中颜色，
 	上面5中的tv_tag的background属性，可以自己定义选中颜色
 
 
