@@ -13,12 +13,19 @@
 
 
 #效果图
+##单选时
+![image](https://github.com/qiushi123/FlowLayout-master/blob/master/images/2.png?raw=true)
+
+##多选时
+![image](https://github.com/qiushi123/FlowLayout-master/blob/master/images/3.png?raw=true)
+
+
 
 #使用步骤
 ##1，将项目里的类复制到你的项目中（这是源码奥，可以自己根据需求自己改，比导入类库灵活）
-
+![image](https://github.com/qiushi123/FlowLayout-master/blob/master/images/4.png?raw=true)
 ##2，布局文件中声明：
-	
+![image](https://github.com/qiushi123/FlowLayout-master/blob/master/images/5.png?raw=true)	
 
 ##3，常用设置（单选，多选，仅仅点击，默认选中项等）
 	//这里FLOW_TAG_CHECKED_SINGLE是单选，FLOW_TAG_CHECKED_MULTI多选，默认是仅仅点击
