@@ -1,15 +1,18 @@
 #Android流式布局，支持单选、多选等，适合用于产品标签等，可以自定义标签颜色，标签大小，标签距离。
 
 #特色
-可以单选多选，使用方便
-可以自定义标签颜色，标签大小，标签距离
-以setAdapter形式注入数据
-直接设置selector为background即可完成标签选则的切换，类似CheckBox
-支持控制选择的Tag数量，比如：单选、多选
-支持setOnTagClickListener，当点击某个Tag回调
-支持setOnSelectListener，当选择某个Tag后回调
-支持adapter.notifyDataChanged
-Activity重建（或者旋转）后，选择的状态自动保存
+####可以单选多选，使用方便
+####可以自定义标签颜色，标签大小，标签距离
+####以setAdapter形式注入数据
+####直接设置selector为background即可完成标签选则的切换，类似CheckBox
+####支持控制选择的Tag数量，比如：单选、多选
+####支持setOnTagClickListener，当点击某个Tag回调
+####支持setOnSelectListener，当选择某个Tag后回调
+####支持adapter.notifyDataChanged
+####Activity重建（或者旋转）后，选择的状态自动保存
+
+
+#效果图
 
 使用步骤
 1，将项目里的类复制到你的项目中（这是源码奥，可以自己根据需求自己改，比导入类库灵活）
